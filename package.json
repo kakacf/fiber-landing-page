@@ -1,0 +1,12 @@
+{
+  "name": "fiber-landing-page",
+  "version": "1.0.0",
+  "description": "practice html sass js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
