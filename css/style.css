@@ -1,3 +1,176 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;800&display=swap");
+html {
+  /* 
+      https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
+      browser default font size: 16px
+      10px/16px = 0.625 -> 62.5% 
+      百分比可以套用所有 root px，因為 root px 會變動
+      rem = root font size 
+  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.btn {
+  cursor: pointer;
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  background-color: #4d13d1;
+  color: #ffffff;
+  border: 1px solid #6c6c6c;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.btn--small {
+  width: 15rem;
+  height: 4rem;
+}
+.btn:hover {
+  background-color: #7855ca;
+  border: 1px solid #beb9b8;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #fbf8f3;
+}
+header .container {
+  width: 100%;
+  font-size: 2rem;
+}
+header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+header .nav__text--bold {
+  color: #251c3b;
+  font-weight: 800;
+}
+header .nav__logo {
+  cursor: pointer;
+}
+header .nav__logo:hover {
+  color: #4d13d1;
+}
+header .nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+header .nav__item {
+  cursor: pointer;
+  padding: 0 2rem;
+  color: #6c6c6c;
+  font-weight: 500;
+}
+header .nav__item:hover {
+  color: #beb9b8;
+}
+header .nav__sign-in {
+  cursor: pointer;
+}
+header .nav__sign-in:hover {
+  color: #4d13d1;
+}
+header .nav__sign-up {
+  font-size: 2rem;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  background-color: #fbf8f3;
+  padding: 1rem 3rem;
+}
+.section-1 .container {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: start;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.section-1 .article {
+  flex: 1.2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.section-1 .article__title {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.section-1 .article__sub {
+  color: #6c6c6c;
+}
+.section-1 .article__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+.section-1 .article__btns--text {
+  cursor: pointer;
+  color: #4d13d1;
+}
+.section-1 .article__btns--text:hover {
+  color: #7855ca;
+}
+.section-1 .article__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+  color: #6c6c6c;
+  font-size: 1.8rem;
+}
+.section-1 .article__list__item {
+  gap: 1rem;
+}
+.section-1 .img {
+  flex: 1.2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.section-1 .img__hero {
+  width: 100%;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 1rem 3rem;
+  border: 1px solid red;
+}
+.section-2 .container {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: start;
+  font-size: 2rem;
+  padding: 5rem 0;
+}
 
 /*# sourceMappingURL=style.css.map */
