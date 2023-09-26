@@ -17,6 +17,25 @@ body {
     height: 100vh;
     margin: auto;
     background-color: $bg-color-secondary;
+    // font-size: $font-size-default;
+}
+
+
+.weight-light {
+    font-weight: $font-weight-light;
+}
+.weight-normal {
+    font-weight: $font-weight-normal;
+}
+.weight-medium {
+    font-weight: $font-weight-medium;
+}
+.weight-bold {
+    font-weight: $font-weight-bold;
+}
+
+.text-primary {
+    color: $color-primary;
 }
 
 .btn {
