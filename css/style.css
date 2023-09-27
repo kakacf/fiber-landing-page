@@ -62,12 +62,20 @@ body {
   border: 1px solid #beb9b8;
 }
 
+.base__container {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
 header {
   display: flex;
   justify-content: center;
   background-color: #fbf8f3;
 }
-header .container {
+header .header__container {
   width: 100%;
   font-size: 2rem;
 }
@@ -120,12 +128,9 @@ header .nav__sign-up {
   background-color: #fbf8f3;
   padding: 1rem 3rem;
 }
-.section-1 .container {
-  width: 100%;
+.section-1 .section__container {
   display: flex;
   align-items: start;
-  font-size: 2rem;
-  padding: 2rem 0;
 }
 .section-1 .article {
   flex: 1.2;
@@ -181,12 +186,10 @@ header .nav__sign-up {
   background-color: #ffffff;
   padding: 1rem 3rem;
 }
-.section-2 .container {
-  width: 100%;
+.section-2 .section__container {
   display: flex;
   flex-direction: column;
   align-items: start;
-  font-size: 2rem;
   padding: 8rem 0;
   gap: 3rem;
 }
@@ -214,6 +217,47 @@ header .nav__sign-up {
 .section-2 .card__sub {
   color: #6c6c6c;
   line-height: 1.4;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 0rem 3rem;
+  border-radius: 2rem;
+  background-color: #4d13d1;
+  color: #ffffff;
+}
+.section-3 .section__container {
+  padding: 10rem 0 0 0;
+  gap: 2rem;
+}
+.section-3 .article {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.section-3 .article__title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 10rem;
+}
+.section-3 .article__sub {
+  width: 80%;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.section-3 .article__btns--free {
+  background-color: #ffffff;
+  color: #4d13d1;
+}
+.section-3 .article__btns--free:hover {
+  background-color: #7855ca;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.section-3 .img {
+  width: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */

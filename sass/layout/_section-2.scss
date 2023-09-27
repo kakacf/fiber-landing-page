@@ -4,12 +4,12 @@
     background-color: $bg-color-secondary;
     padding: $section-padding;
 
-    .container {
-        width: 100%;
+    .section__container {
+        // width: 100%;
         display: flex;
         flex-direction: column;
         align-items: start;
-        font-size: $font-size-default;
+        // font-size: $font-size-default;
         padding: 8rem 0;
         gap: 3rem;
     }
